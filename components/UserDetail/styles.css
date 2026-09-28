@@ -1,0 +1,61 @@
+.userDetail-container .MuiTypography-h5 {
+    font-weight: 800 ;
+    background: var(--canva-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px ;
+}
+.userDetail-container b {
+    color: var(--canva-purple);
+}
+.userDetail-container a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: var(--canva-gradient);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 700;
+}
+.mentioned-grid-container {
+    margin-top: 30px ;
+}
+
+.mention-card {
+    border-radius: 8px ;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1) ;
+    transition: all 0.3s ease;
+    border: 1px solid #eee;
+    height: 100%;
+}
+
+.mention-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2) ;
+}
+
+.mention-card-media {
+    width: 100%;
+    height: 140px; 
+    object-fit: cover; 
+    display: block;
+}
+
+.mention-footer {
+    padding: 6px ;
+    background-color: #fafafa;
+    border-top: 1px solid #f0f0f0;
+    text-align: center;
+}
+
+.mention-footer-link {
+    font-size: 0.7rem ;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 700 ;
+    color: #1976d2;
+    text-decoration: none;
+}

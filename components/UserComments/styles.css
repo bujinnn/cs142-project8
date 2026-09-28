@@ -1,0 +1,47 @@
+.user-comments-container {
+    padding: 30px;
+    background-color: #f7f9fa; 
+    color: #1b1c21; 
+}
+
+.user-comments-container .MuiTypography-h5 {
+    color: #313337 !important;
+    font-weight: 700 !important;
+    margin-bottom: 25px !important;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e0e4e7;
+}
+
+.MuiCard-root {
+    background-color: #ffffff !important; 
+    border-radius: 12px !important;
+    margin-bottom: 20px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+    transition: transform 0.2s ease;
+}
+
+.MuiCard-root:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12) !important;
+}
+
+.MuiCard-root img {
+    object-fit: cover;
+    border-radius: 8px;
+    border: 3px solid #e0e4e7; 
+    transition: border-color 0.2s ease;
+}
+
+.MuiCard-root:hover img {
+    border-color: #00b39e; /* Ногоон акцент */
+}
+
+/* Комментийн текст */
+.MuiCard-root .MuiTypography-body1 {
+    font-weight: 600;
+    color: #313337;
+}
+
+.MuiCard-root .MuiTypography-caption {
+    color: #6e7278 !important;
+}

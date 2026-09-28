@@ -1,0 +1,17 @@
+.cs142-topbar-appBar {
+    background: var(--canva-gradient) ;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15) ;
+    height: 50px ; 
+}
+
+.topbar-container {
+    min-height: 50px ;
+    padding: 0 20px;
+}
+
+.topbar-container .MuiTypography-root, 
+.topbar-container .MuiButton-root {
+    color: white ;
+    font-size: 0.9rem;
+    font-weight: 600;
+}

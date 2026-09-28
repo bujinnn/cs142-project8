@@ -1,0 +1,57 @@
+/* src/styles/main.css */
+
+:root {
+    /* Canva-ийн үндсэн өнгөнүүд */
+    --canva-gradient: linear-gradient(135deg, #8b3dff 0%, #ff66c4 100%);
+    --canva-purple: #8b3dff;
+    --bg-light: #f4f7f8;
+    --text-dark: #1e1e1e;
+    --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+body {
+    background-color: var(--bg-light);
+    margin: 0;
+    font-family: 'Inter', -apple-system, sans-serif;
+}
+
+/* Дээд талын зай (Buffer) */
+.cs142-main-topbar-buffer {
+    height: 55px; /* Зайг багасгасан */
+}
+
+/* Үндсэн контент болон Слайдбар байрлах Paper */
+.cs142-main-grid-item {
+    background: white !important;
+    border-radius: 12px !important;
+    padding: 15px !important;
+    box-shadow: var(--card-shadow);
+    min-height: 85vh;
+}
+
+/* TopBar (Header) - Canva Gradient */
+.cs142-topbar-appBar {
+    background: var(--canva-gradient) !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15) !important;
+    height: 50px !important;
+}
+
+.topbar-container {
+    min-height: 50px !important;
+    padding: 0 20px;
+}
+
+.topbar-container .MuiTypography-root, 
+.topbar-container .MuiButton-root {
+    color: white !important;
+    font-weight: 600;
+    text-transform: none;
+}
+
+/* Бүх үндсэн товчлуурууд */
+.MuiButton-containedPrimary {
+    background: var(--canva-gradient) !important;
+    border-radius: 8px !important;
+    text-transform: none !important;
+    font-weight: 700 !important;
+}

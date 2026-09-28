@@ -1,0 +1,33 @@
+.userList-container {
+    padding: 5px;
+}
+
+.userList-container .MuiTypography-h6 {
+    color: var(--canva-purple);
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.userList-container .MuiListItem-root {
+    border-radius: 8px;
+    margin-bottom: 2px;
+    padding: 8px 12px;
+    transition: 0.2s;
+}
+
+.userList-container .MuiListItem-root:hover {
+    background-color: rgba(139, 61, 255, 0.08);
+}
+
+.userList-container a {
+    color: var(--text-dark);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.userList-container .MuiBadge-badge {
+    background-color: var(--canva-purple) !important;
+    color: white;
+}
